@@ -1,0 +1,29 @@
+@mixin text-xl-80 {
+    font-size: calc(64px + 24 * ((100vw - 1280px) / 1920));
+    line-height: calc(72px + 24 * ((100vw - 1280px) / 1920));
+}
+
+@mixin text-lg-40 {
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+}
+
+@mixin text-lg-36 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+
+@mixin text-md-24 {
+    font-size: calc(22px + 24 * ((100vw - 1280px) / 1920));
+    line-height: calc(28px + 24 * ((100vw - 1280px) / 1920));
+}
+
+@mixin text-md-20 {
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+@mixin text-sm-18 {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}

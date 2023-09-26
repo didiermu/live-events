@@ -1,0 +1,19 @@
+{
+  "name": "quala",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --emptyOutDir",
+    "preview": "vite preview",
+    "webp": "webpify --src public/img/ --dest public/img/"
+  },
+  "devDependencies": {
+    "sass": "^1.66.1",
+    "vite": "^4.4.9"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.2"
+  }
+}

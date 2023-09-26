@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Detalle servicio</title>
+        <link
+            href="https://vjs.zencdn.net/7.20.3/video-js.css"
+            rel="stylesheet"
+        />
+        <script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script
+            type="text/javascript"
+            src="./js/lightbox.min.js"
+            defer
+        ></script>
+        <link rel="stylesheet" href="./scss/lightbox.min.css" />
+    </head>
+    <body>
+        <main class="main-detalle-servicio">
+            <section class="hero">
+                <div class="hero__video">
+                    <video
+                        class="video-js"
+                        id="video-activacion"
+                        muted
+                        playsinline
+                        preload
+                        loop
+                        poster="img/poster-video.jpg"
+                    >
+                        <source src="video/dance.mp4" type="video/mp4" />
+                    </video>
+                </div>
+            </section>
+
+            <section class="detalle">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-6 detalle--img">
+                            <picture>
+                                <source
+                                    srcset="img/img-evento-1.webp"
+                                    type="image/webp"
+                                />
+                                <img class="w-100" src="img/img-evento-1.jpg" />
+                            </picture>
+                        </div>
+                        <div class="col-lg-6">
+                            <h1>Lorem ipsum dolor sit amet consectetur</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Itaque aspernatur assumenda,
+                                quam consequuntur non aliquam doloremque!
+                                Officia rerum sit, molestiae saepe eaque
+                                obcaecati et porro magnam id, iure modi maiores!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row detalle--grid">
+                        <a
+                            href="img/detalle-1.jpg"
+                            data-lightbox="galeria-desktop"
+                        >
+                            <picture>
+                                <source
+                                    srcset="img/detalle-1.webp"
+                                    type="image/webp"
+                                />
+                                <img class="w-100" src="img/detalle-1.jpg" />
+                            </picture>
+                        </a>
+                        <a
+                            href="img/detalle-2.jpg"
+                            data-lightbox="galeria-desktop"
+                        >
+                            <picture>
+                                <source
+                                    srcset="img/detalle-2.webp"
+                                    type="image/webp"
+                                />
+                                <img class="w-100" src="img/detalle-2.jpg" />
+                            </picture>
+                        </a>
+                        <a
+                            href="img/detalle-3.jpg"
+                            data-lightbox="galeria-desktop"
+                        >
+                            <picture>
+                                <source
+                                    srcset="img/detalle-3.webp"
+                                    type="image/webp"
+                                />
+                                <img class="w-100" src="img/detalle-3.jpg" />
+                            </picture>
+                        </a>
+                        <a
+                            href="img/detalle-1.jpg"
+                            data-lightbox="galeria-desktop"
+                        >
+                            <picture>
+                                <source
+                                    srcset="img/detalle-1.webp"
+                                    type="image/webp"
+                                />
+                                <img class="w-100" src="img/detalle-1.jpg" />
+                            </picture>
+                        </a>
+                        <a
+                            href="img/detalle-2.jpg"
+                            data-lightbox="galeria-desktop"
+                        >
+                            <picture>
+                                <source
+                                    srcset="img/detalle-2.webp"
+                                    type="image/webp"
+                                />
+                                <img class="w-100" src="img/detalle-2.jpg" />
+                            </picture>
+                        </a>
+                        <a
+                            href="img/detalle-3.jpg"
+                            data-lightbox="galeria-desktop"
+                        >
+                            <picture>
+                                <source
+                                    srcset="img/detalle-3.webp"
+                                    type="image/webp"
+                                />
+                                <img class="w-100" src="img/detalle-3.jpg" />
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="row detalle--paginacion">
+                        <a href="#!" id="prev-servicio"></a>
+                        <a href="#!" id="next-servicio"></a>
+                    </div>
+                    <div class="row detalle--nav">
+                        <a href="#!">Activaciones de marca</a>
+                        <a href="#!">Eventos especiales</a>
+                        <a href="#!">Experiencia de marketing</a>
+                        <a href="#!">Eventos corporativos</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script type="module" src="./js/main.js"></script>
+        <script type="module" src="./js/detalle-servicio.js"></script>
+    </body>
+</html>
