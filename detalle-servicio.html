@@ -20,6 +20,8 @@
     <script src="js/parallax.min.js" defer></script>
     <script src="js/animaciones-globals.min.js" defer></script>
     <title>Live Events - Servicios</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" defer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js" defer></script>
     <script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
     <link href="https://vjs.zencdn.net/7.20.3/video-js.css" rel="stylesheet">
     <script type="text/javascript" src="../js/lightbox.min.min.js" defer></script>
@@ -71,28 +73,84 @@
             </div>
           </div>
         </div>
-        <div class="container">
-          <div class="row detalle--grid"><a href="img/detalle-1.jpg" data-lightbox="galeria-desktop">
-              <picture>
-                <source srcset="img/detalle-1.webp" type="image/webp"><img class="w-100" src="img/detalle-1.jpg">
-              </picture></a><a href="img/detalle-2.jpg" data-lightbox="galeria-desktop">
-              <picture>
-                <source srcset="img/detalle-2.webp" type="image/webp"><img class="w-100" src="img/detalle-2.jpg">
-              </picture></a><a href="img/detalle-3.jpg" data-lightbox="galeria-desktop">
-              <picture>
-                <source srcset="img/detalle-3.webp" type="image/webp"><img class="w-100" src="img/detalle-3.jpg">
-              </picture></a><a href="img/detalle-1.jpg" data-lightbox="galeria-desktop">
-              <picture>
-                <source srcset="img/detalle-1.webp" type="image/webp"><img class="w-100" src="img/detalle-1.jpg">
-              </picture></a><a href="img/detalle-2.jpg" data-lightbox="galeria-desktop">
-              <picture>
-                <source srcset="img/detalle-2.webp" type="image/webp"><img class="w-100" src="img/detalle-2.jpg">
-              </picture></a><a href="img/detalle-3.jpg" data-lightbox="galeria-desktop">
-              <picture>
-                <source srcset="img/detalle-3.webp" type="image/webp"><img class="w-100" src="img/detalle-3.jpg">
-              </picture></a></div>
-          <div class="row detalle--paginacion"><a id="prev-servicio" href="#!"></a><a id="next-servicio" href="#!"></a></div>
-          <div class="row detalle--nav"><a href="#!">Activaciones de marca</a><a href="#!">Eventos especiales</a><a href="#!">Experiencia de marketing</a><a href="#!">Eventos corporativos</a></div>
+        <div class="container" id="navegacion">
+          <div class="row detalle--grid">
+            <div class="col-12">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><a href="img/detalle-1.jpg" data-lightbox="galeria-desktop">
+                      <picture>
+                        <source srcset="img/detalle-1.webp" type="image/webp"><img class="w-100" src="img/detalle-1.jpg">
+                      </picture></a><a href="img/detalle-2.jpg" data-lightbox="galeria-desktop">
+                      <picture>
+                        <source srcset="img/detalle-2.webp" type="image/webp"><img class="w-100" src="img/detalle-2.jpg">
+                      </picture></a><a href="img/detalle-3.jpg" data-lightbox="galeria-desktop">
+                      <picture>
+                        <source srcset="img/detalle-3.webp" type="image/webp"><img class="w-100" src="img/detalle-3.jpg">
+                      </picture></a><a href="img/detalle-1.jpg" data-lightbox="galeria-desktop">
+                      <picture>
+                        <source srcset="img/detalle-1.webp" type="image/webp"><img class="w-100" src="img/detalle-1.jpg">
+                      </picture></a><a href="img/detalle-2.jpg" data-lightbox="galeria-desktop">
+                      <picture>
+                        <source srcset="img/detalle-2.webp" type="image/webp"><img class="w-100" src="img/detalle-2.jpg">
+                      </picture></a><a href="img/detalle-3.jpg" data-lightbox="galeria-desktop">
+                      <picture>
+                        <source srcset="img/detalle-3.webp" type="image/webp"><img class="w-100" src="img/detalle-3.jpg">
+                      </picture></a><a href="img/detalle-1.jpg" data-lightbox="galeria-desktop">
+                      <picture>
+                        <source srcset="img/detalle-1.webp" type="image/webp"><img class="w-100" src="img/detalle-1.jpg">
+                      </picture></a><a href="img/detalle-2.jpg" data-lightbox="galeria-desktop">
+                      <picture>
+                        <source srcset="img/detalle-2.webp" type="image/webp"><img class="w-100" src="img/detalle-2.jpg">
+                      </picture></a><a href="img/detalle-3.jpg" data-lightbox="galeria-desktop">
+                      <picture>
+                        <source srcset="img/detalle-3.webp" type="image/webp"><img class="w-100" src="img/detalle-3.jpg">
+                      </picture></a><a href="img/detalle-1.jpg" data-lightbox="galeria-desktop">
+                      <picture>
+                        <source srcset="img/detalle-1.webp" type="image/webp"><img class="w-100" src="img/detalle-1.jpg">
+                      </picture></a><a href="img/detalle-2.jpg" data-lightbox="galeria-desktop">
+                      <picture>
+                        <source srcset="img/detalle-2.webp" type="image/webp"><img class="w-100" src="img/detalle-2.jpg">
+                      </picture></a><a href="img/detalle-3.jpg" data-lightbox="galeria-desktop">
+                      <picture>
+                        <source srcset="img/detalle-3.webp" type="image/webp"><img class="w-100" src="img/detalle-3.jpg">
+                      </picture></a></div>
+                  <div class="swiper-slide"><a href="img/detalle-3.jpg" data-lightbox="galeria-desktop">
+                      <picture>
+                        <source srcset="img/detalle-3.webp" type="image/webp"><img class="w-100" src="img/detalle-3.jpg">
+                      </picture></a><a href="img/detalle-1.jpg" data-lightbox="galeria-desktop">
+                      <picture>
+                        <source srcset="img/detalle-1.webp" type="image/webp"><img class="w-100" src="img/detalle-1.jpg">
+                      </picture></a><a href="img/detalle-2.jpg" data-lightbox="galeria-desktop">
+                      <picture>
+                        <source srcset="img/detalle-2.webp" type="image/webp"><img class="w-100" src="img/detalle-2.jpg">
+                      </picture></a><a href="img/detalle-3.jpg" data-lightbox="galeria-desktop">
+                      <picture>
+                        <source srcset="img/detalle-3.webp" type="image/webp"><img class="w-100" src="img/detalle-3.jpg">
+                      </picture></a><a href="img/detalle-1.jpg" data-lightbox="galeria-desktop">
+                      <picture>
+                        <source srcset="img/detalle-1.webp" type="image/webp"><img class="w-100" src="img/detalle-1.jpg">
+                      </picture></a><a href="img/detalle-2.jpg" data-lightbox="galeria-desktop">
+                      <picture>
+                        <source srcset="img/detalle-2.webp" type="image/webp"><img class="w-100" src="img/detalle-2.jpg">
+                      </picture></a><a href="img/detalle-3.jpg" data-lightbox="galeria-desktop">
+                      <picture>
+                        <source srcset="img/detalle-3.webp" type="image/webp"><img class="w-100" src="img/detalle-3.jpg">
+                      </picture></a><a href="img/detalle-3.jpg" data-lightbox="galeria-desktop">
+                      <picture>
+                        <source srcset="img/detalle-3.webp" type="image/webp"><img class="w-100" src="img/detalle-3.jpg">
+                      </picture></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row detalle--paginacion">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <div class="row detalle--nav">
+            <h2>OTROS SERVICIOS</h2><a class="active" href="#!">Activaciones de marca</a><a href="#!">Eventos especiales</a><a href="#!">Experiencia de marketing</a><a href="#!">Eventos corporativos</a>
+          </div>
         </div>
       </section>
       <section class="pleca">
